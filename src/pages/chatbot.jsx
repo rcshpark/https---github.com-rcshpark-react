@@ -4,7 +4,7 @@ import "@chatscope/chat-ui-kit-styles/dist/default/styles.min.css";
 
 const API_KEY = process.env.OPEN_API_KEY;
 
-const ChatBot = () =>{
+const ChatbotPage = () =>{
 
 const [typing, setTyping] = useState(false)
   const [messages , setMessages] = useState([
@@ -88,4 +88,4 @@ const [typing, setTyping] = useState(false)
     </div>
   );
 }
-export default ChatBot;
+export default ChatbotPage;
